@@ -7,5 +7,5 @@ const nodeBtn = document.querySelector(".btn");
 
 
 nodeBtn.addEventListener("click", ()=>{
-    console.log(exponentiation(nodeInputOne.value, nodeInputTwo.value));
+    console.log(multiply(nodeInputOne.value, nodeInputTwo.value));
 });
